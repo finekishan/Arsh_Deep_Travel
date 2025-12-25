@@ -46,9 +46,13 @@ A complete travel booking website with admin panel for managing taxi services, t
 
 ## 🚀 Installation
 
-### 1. Clone/Download Project
+### 1. Clone Repository
 ```bash
-# Place the project in your XAMPP htdocs folder
+# Clone from GitHub
+git clone https://github.com/YOUR_USERNAME/arsh-deep-travels.git
+cd arsh-deep-travels
+
+# Or download and extract to:
 C:\xampp\htdocs\travel\
 ```
 
@@ -59,7 +63,8 @@ C:\xampp\htdocs\travel\
 4. Import schema: `website/database/schema.sql`
 
 ### 3. Configuration
-Update database credentials in `config/connect.php`:
+1. Copy `config/connect.example.php` to `config/connect.php`
+2. Update database credentials in `config/connect.php`:
 ```php
 $dbConfig = [
     'host' => 'localhost',
